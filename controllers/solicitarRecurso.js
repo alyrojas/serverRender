@@ -1,8 +1,8 @@
-const Recurso = require("../models/recurso.js");
+const Recurso = require("../models/Recurso.js");
 const { transporter } = require('../nodemailer.js'); // Ajusta la ruta según tu estructura de carpetas
 const Empleado = require("../models/Empleado.js"); // Ajusta la ruta según tu estructura de carpetas
 const Solicitud = require("../models/Solicitud.js"); // Ajusta la ruta según tu estructura de carpetas
-const recurso = require("../models/recurso.js");
+const recurso = require("../models/Recurso.js");
 exports.solicitarRecurso = async (req, res) => {
   try {
       const { idEmpleado, nombre, recurso, marca, comentario, estado } = req.body;
