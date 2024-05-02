@@ -4,7 +4,7 @@ const { recaptcha } = require('express-recaptcha');
 const conectarDB = require('./config/db');
 const cors = require("cors");
 
-// Creamos el servidor
+// Creamos el servidor 2.0
 const app = express();
 
 // Conectamos a la BD
