@@ -29,7 +29,7 @@ app.use('/api/contacto', require ('./routes/contacto'));
 app.use('/', require('./routes/empleado'));
 
 
-
+//ok
 //app.use('/api/privilegio', require('./routes/privilegio'));
 //app.use('/api/nombreRol', require('./routes/nombreRol'));
 
